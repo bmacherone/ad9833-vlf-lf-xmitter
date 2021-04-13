@@ -1,21 +1,22 @@
-## ad9833 vlf/lf transmitter
+# ad9833 vlf/lf transmitter
 
-# This circuit was designed to fill the following criteria:
-Able to generate sine wave signals covering the 2200, 1750 and 630 meter bands, and be able to be stretched to 160 meters.
-Accurate frequency control without complex analog circuitry.
-Able to generate narrow band, Farsnworh Morse Code over a wide wpm range.
-Power output appropriae for the 2200, 1750 and 630 meter bands
-Harmonic free (or at least supressed) signal
-Controlled by a flexible, remotely accessible microcontroller, in this case a Raspbery Pi 3B+
-All frequency generation performed by hardware, not software
+## This circuit was designed to fill the following criteria:
+- Able to generate sine wave signals covering the 2200, 1750 and 630 meter bands, and be able to be stretched to 160 meters.
+- Accurate frequency control without complex analog circuitry.
+- Able to generate narrow band, Farsnworh Morse Code over a wide wpm range.
+- Power output appropriae for the 2200, 1750 and 630 meter bands
+- Harmonic free (or at least supressed) signal
+- Controlled by a flexible, remotely accessible microcontroller, in this case a Raspbery Pi 3B+
+- All frequency generation performed by hardware, not software
 
-Easily extensible to achieve remotely operated cw transmission with adjustable tuning
+- Easily extensible to achieve remotely operated cw transmission with adjustable tuning
 
-# This is the schematic for the Raspberry Pi "hat"
+## This is the schematic for the Raspberry Pi "hat"
 ![foo *bar*]
 
 [foo *bar*]: images/xmithat.png "Schematic"
 
+## cwtest.py (current code is in the src directory)
 ```python:src/cwtest.py
 #!/usr/bin/env python3
 
@@ -168,7 +169,7 @@ ad.keyup()
 time.sleep(10)
 
 　```
-    
+## AD9833.py (current code is in the src directory)
 ```python:src/AD9833.py
 # 
 #   simple control of the AD9833 DDS chip
