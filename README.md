@@ -272,7 +272,7 @@ class AD9833:
 # needs code for phase setting and choice; triange and square output
  
 ```
- ## assenvked had on Pi minus AD9833 module
-![foo *bar*]
+ ## assembled hat on Pi minus AD9833 module
+![foo *b*]
 
-[foo *bar*]: images/xmithat_onPi.JPG "Board"
+[foo *b*]: images/xmithat_onPi.JPG "Board"
