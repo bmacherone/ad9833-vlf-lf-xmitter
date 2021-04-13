@@ -3,7 +3,7 @@
 
 [foo *bar*]: images/xmithat.png "Schematic"
 
-```python:src/ad9833.py
+```python:src/AD9833.py
  
 　```
  
