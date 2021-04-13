@@ -1,7 +1,7 @@
 # ad9833 vlf/lf transmitter
 
 ## This circuit was designed to fill the following criteria:
-- Able to generate sine wave signals covering the 2200, 1750 and 630 meter bands, and be able to be stretched to 160 meters.
+- Ability to generate sine wave signals covering the 2200, 1750 and 630 meter bands, and be able to be stretched to 160 meters.
 - Accurate frequency control without complex analog circuitry.
 - Able to generate narrow band, Farsnworh Morse Code over a wide wpm range.
 - Power output appropriae for the 2200, 1750 and 630 meter bands
@@ -11,6 +11,8 @@
 - Inexpensive (AD9833 module is $4 U.S dollars in 2020)
 
 - Easily extensible to achieve remotely operated cw transmission with adjustable tuning
+
+## more to come, this is a preliminary posting
 
 ## This is the schematic for the Raspberry Pi "hat"
 ![foo *bar*]
@@ -36,6 +38,7 @@ from AD9833 import AD9833
 frequency = 1992000
 # 20 meters
 #frequency = 14010000
+# yes, it worked on 20 meters (with no low pass filter)
 
 wpm = 10
 
@@ -268,5 +271,8 @@ class AD9833:
         
 # needs code for phase setting and choice; triange and square output
  
-　```
- 
+```
+ ## assembled hat on Pi minus AD9833 module
+![foo *b*]
+
+[foo *b*]: images/xmithat_onPi.JPG "Board"
