@@ -8,6 +8,7 @@
 - Harmonic free (or at least supressed) signal
 - Controlled by a flexible, remotely accessible microcontroller, in this case a Raspbery Pi 3B+
 - All frequency generation performed by hardware, not software
+- Inexpensive (AD9833 module is $4 U.S dollars in 2020)
 
 - Easily extensible to achieve remotely operated cw transmission with adjustable tuning
 
@@ -168,8 +169,10 @@ while xmit:
 ad.keyup()
 time.sleep(10)
 
-　```
+```
+
 ## AD9833.py (current code is in the src directory)
+
 ```python:src/AD9833.py
 # 
 #   simple control of the AD9833 DDS chip
