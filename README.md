@@ -279,12 +279,6 @@ class AD9833:
 ![hatonpi](images/xmithat_onPi.JPG "Hat on Pi")
 ***
 
-
-<style>
-table, th, td {
-  border: 1px solid black;
-}
-</style>
 <table style="width:100%">
 <tr>
 <th colspan=2, align=left>
