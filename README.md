@@ -278,15 +278,7 @@ class AD9833:
 ## assembled hat on Pi minus AD9833 module
 ![hatonpi](images/xmithat_onPi.JPG "Hat on Pi")
 ***
-## assembled hat on Pi with AD9833 module
-![hatonpiw](images/xmithat_onPiwAD.JPG "Hat on Pi")
-***
 
-<style>
-table, th, td {
-  border: 1px solid black;
-}
-</style>
 <table style="width:100%">
 <tr>
 <th colspan=2, align=left>
