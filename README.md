@@ -278,7 +278,9 @@ class AD9833:
 ## assembled hat on Pi minus AD9833 module
 ![hatonpi](images/xmithat_onPi.JPG "Hat on Pi")
 ***
-
+## assembled hat on Pi with AD9833 module
+![hatonpiw](images/xmithat_onPiwAD.JPG "Hat on Pi")
+***
 
 <style>
 table, th, td {
@@ -300,8 +302,21 @@ table, th, td {
 </td>
 </tr>
 <tr>
-<td colspan=2, align=center>
+<td colspan=2 align=center>
 <img src="images/s-l1600-2.jpg">
+</td>
+</tr>
+<tr>
+<td>
+<img src="images/ad9833mod01.JPG">
+<td>
+<td>
+<img src="images/ad9833mod02.JPG">
+<td>
+<tr>
 </table>
 
 
+git add images/ad9833mod01.JPG
+bsm@Sisyphus:~/github/ad9833-vlf-lf-xmitter$ git add images/ad9833mod02.JPG
+bsm@Sisyphus:~/github/ad9833-vlf-lf-xmitter$ git add
